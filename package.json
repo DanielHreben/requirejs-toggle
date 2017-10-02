@@ -1,6 +1,6 @@
 {
   "name": "requirejs-toggle",
-  "version": "0.9.0",
+  "version": "1.0.2",
   "description": "Allows you to turn off requirejs",
   "main": "index.js",
   "scripts": {

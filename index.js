@@ -1,9 +1,9 @@
 if (window.__requirejsToggleBackup) {
-  console.log('⭘ Disabling requirejs')
+  console.log('▶ Enabling requirejs')
   Object.assign(window, window.__requirejsToggleBackup)
   delete window.__requirejsToggleBackup
 } else {
-  console.log('⏽ Enabling requirejs')
+  console.log('⏹ Disabling requirejs')
   window.__requirejsToggleBackup = {
     define: window.define,
     require: window.require,
@@ -11,6 +11,6 @@ if (window.__requirejsToggleBackup) {
   }
 
   for (const field of Object.keys(window.__requirejsToggleBackup)) {
-    delete window[field]
+    window[field] = undefined
   }
 }
