@@ -1,4 +1,6 @@
 # requirejs-toggle
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/DanielHreben/requirejs-toggle.svg)](https://greenkeeper.io/)
 Allows you to turn off requirejs
 
 I hope you will newer need this hack, but sometimes it can be very useful.
